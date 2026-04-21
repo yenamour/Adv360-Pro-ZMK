@@ -44,6 +44,8 @@
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PRINTSCREEN                            &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
 &kp LCTRL  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp ENTER        &kp ENTER  &kp KP_N0              &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &kp RIGHT_ALT
             >;
+
+            label = "04212026";
         };
 
         fn {
