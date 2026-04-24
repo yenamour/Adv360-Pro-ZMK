@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -30,19 +31,19 @@
 &kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                      &mo 3      &kp N6  &kp N7        &kp N8     &kp N9    &kp N0    &kp MINUS
 &kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &kp HOME                                                                    &kp END    &kp Y   &kp U         &kp I      &kp O     &kp P     &kp BSLH
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_WIN      &kp PRINTSCREEN  &kp ENTER  &mo 2      &kp H   &kp J         &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                 &kp HOME          &kp PG_UP                              &kp N   &kp M         &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&kp LCTRL  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC      &kp DEL         &kp END           &kp PAGE_DOWN    &kp ENTER  &kp SPACE          &kp LEFT_ALT  &kp RCTRL  &kp LBKT  &kp RBKT  &kp RCTRL
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                 &kp ENTER         &kp PG_UP                              &kp N   &kp M         &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&kp LCTRL  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC      &kp SPACE       &kp DEL           &kp PAGE_DOWN    &kp ENTER  &kp SPACE          &kp LEFT_ALT  &kp RCTRL  &kp LBKT  &kp RBKT  &kp RCTRL
             >;
         };
 
         keypad {
             display-name = "Kp";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                         &mo 3          &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &kp HOME                                                       &kp PG_UP      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &kp END   &kp LCTRL  &kp LALT      &kp LGUI         &kp RCTRL  &kp PAGE_DOWN  &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PRINTSCREEN                            &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp ENTER        &kp ENTER  &kp KP_N0              &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 2
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                                  &mo 3           &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &msc SCRL_LEFT                                                          &msc SCRL_UP    &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &msc SCRL_RIGHT  &kp LCTRL  &kp LEFT_WIN      &kp LEFT_ALT   &kp RCTRL  &msc SCRL_DOWN  &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                               &kp HOME          &kp PAGE_UP                               &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC         &kp DEL    &kp END           &kp PAGE_DOWN  &kp ENTER  &kp KP_N0               &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 2
             >;
 
             label = "04212026";
