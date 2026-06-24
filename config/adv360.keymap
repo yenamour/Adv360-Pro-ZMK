@@ -28,11 +28,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                             &mo 3           &kp N6  &kp N7        &kp N8          &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &mo 0                                                              &msc SCRL_UP    &kp Y   &kp U         &kp I           &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &kp SPACE  &kp ENTER   &kp LEFT_WIN      &kp RIGHT_ALT  &kp RCTRL  &msc SCRL_DOWN  &kp H   &kp J         &kp K           &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                          &kp HOME          &kp PG_UP                                 &kp N   &kp M         &kp COMMA       &kp DOT   &kp FSLH  &kp RSHFT
-&kp LCTRL  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC   &kp DELETE  &kp END           &kp PAGE_DOWN  &kp ENTER  &kp SPACE               &kp UP_ARROW  &kp DOWN_ARROW  &kp LBKT  &kp RBKT  &mo 2
+&kp EQUAL  &kp N1     &kp N2    &kp N3        &kp N4          &kp N5  &tog 1                                                             &mo 3           &kp N6  &kp N7          &kp N8           &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E         &kp R           &kp T   &mo 0                                                              &msc SCRL_UP    &kp Y   &kp U           &kp I            &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D         &kp F           &kp G   &kp SPACE  &kp ENTER   &kp LEFT_WIN      &kp RIGHT_ALT  &kp RCTRL  &msc SCRL_DOWN  &kp H   &kp J           &kp K            &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C         &kp V           &kp B                          &kp HOME          &kp PG_UP                                 &kp N   &kp M           &kp COMMA        &kp DOT   &kp FSLH  &kp RSHFT
+&kp LCTRL  &kp GRAVE  &kp CAPS  &kp UP_ARROW  &kp DOWN_ARROW          &kp BSPC   &kp DELETE  &kp END           &kp PAGE_DOWN  &kp ENTER  &kp SPACE               &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
